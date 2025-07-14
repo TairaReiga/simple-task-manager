@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 環境変数・認証情報
+.env
+.env.local
+.env.*.local
+backend/serviceAccountKey.json
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# その他
+*.log
